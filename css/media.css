@@ -1,0 +1,124 @@
+@media (max-width: 575px) {
+    .header_logo {
+        width: 48%;
+        margin: auto;
+    }
+    .content h5 {
+        font-size: 14px;
+    }
+    .content a {
+        font-size: 12px;
+    }
+    .content p {
+        font-size: 13px;
+
+    } 
+    .nav-link {
+        text-align: center;
+    }
+    .banner_img {
+        left: -66px;
+        width: 138%;
+        top: 174px;
+    }
+    .dental_text h4 {
+        font-size: 30px; 
+    }
+    .banner_item p {
+        width: 98%;
+        margin-top: 22px;
+    }
+    .banner_item {
+        top: 12%; 
+    }
+    .button_two {
+        top: 72%;
+        width: 130%;
+    }
+    .banner_item h4 {
+        font-size: 30px;
+        width: 244px;
+    }
+    .banner_item h2 {
+        font-size: 36px;
+        width: 350px;
+    }
+    .dental_text {
+        text-align: center;
+    }
+    .dental_text p {
+        width: 100%;
+    }
+    .dental_img {
+        width: 55%;
+        margin: auto;
+    }
+    .dental_img img {
+        margin-bottom: 15px;
+    }
+    .dental_item {
+        margin-bottom: 42px;
+        text-align: center;
+    }
+    .f_logo {
+        text-align: center;
+    }
+    .doctor_img {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .service_item {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .plan_item {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .item_one {
+        width: 60%;
+        margin: auto;
+    }
+    .item_two {
+        text-align: center;
+    }
+    .list_img {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 13px;
+    }
+    .news p {
+        width: 100%;
+    }
+    .news {
+        width: 60%;
+        margin: auto;
+    }
+    .input input {
+        padding: 8px 32px 7px 17px;
+    }
+    .fllow li {
+        width: 32px;
+        height: 32px;
+    }
+    .end_item p {
+        font-size: 14px;
+    }
+    .slide {
+        padding: 44px 0;
+    }
+    .plan_item h3 {
+        font-size: 28px;
+    }
+    .plan_text h4 {
+        font-size: 40px;
+    }
+    .slide_item {
+        width: 26%;
+    }
+
+    
+}
