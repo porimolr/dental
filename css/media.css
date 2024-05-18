@@ -17,8 +17,6 @@
         text-align: center;
     }
     .banner_img {
-        left: -66px;
-        width: 138%;
         top: 174px;
     }
     .dental_text h4 {
@@ -29,12 +27,32 @@
         margin-top: 22px;
     }
     .banner_item {
-        top: 12%; 
+        width: 80%;
+        margin: auto;
     }
     .button_two {
-        top: 72%;
-        width: 130%;
+        width: 80%;
+        margin: auto;
+        margin-top: 56px;
     }
+    .Appointment {
+        padding: 12px 18px;
+
+    }
+    .headline h4 {
+
+        font-size: 30px;
+
+    }
+    li.nav-item {
+        margin: auto;
+    }
+    .appointment_content h3 {
+
+        font-size: 13px;
+
+    }
+ 
     .banner_item h4 {
         font-size: 30px;
         width: 244px;
@@ -118,6 +136,9 @@
     }
     .slide_item {
         width: 26%;
+    }
+    .banner_carousel .owl-nav .owl-prev {
+        left: 0;
     }
 
     

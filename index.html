@@ -99,28 +99,85 @@
          </div>
     </section>
     <section class="banner">
-      <div class="container-fluid">
-          <div class="owl-carousel">
-                  <div class="banner_content">
-                      <div class="banner_item">
-                        <h4>We Provide Total</h4>
-                        <h2>Dental Care Solution</h2>
-                        <p>Continually cultivate scalble methodologies avia theme backend a extend optial mrvice highly growth strategies.</p>
-                      </div> 
-                      <div class="button_two">
-                        <a href="#" class="btn btn-more">Learn More</a>
-                        <a href="#" class="btn btn-now">Book Now</a>   
-                      </div>
-                  </div>
-                  <div class="col-md-1"></div>
-                  <div class="banner_img">
-                      <img src="images/bannerimg.png" class="img-fluid" alt="">
-                  </div>
+      <div class="container">
+        <div class="banner_carousel owl-carousel">
+          <div class="row heaight">
+            <div class="col-md-6">
+                <div class="banner_item">
+                  <h4>We Provide Total</h4>
+                  <h2>Dental Care Solution</h2>
+                  <p>Continually cultivate scalble methodologies avia theme backend a extend optial mrvice highly growth strategies.</p>
+                </div> 
+                <div class="button_two">
+                  <a href="#" class="btn btn-more">Learn More</a>
+                  <a href="#" class="btn btn-now">Book Now</a>   
+                </div>
+            </div>
+            <div class="col-md-6">
+              <div class="banner_img">
+                <img src="images/bannerimg.png" class="img-fluid" alt="">
+            </div>
+          </div>   
+    </div>
+    <div class="row heaight">
+      <div class="col-md-6">
+          <div class="banner_item">
+            <h4>We Provide Total</h4>
+            <h2>Dental Care Solution</h2>
+            <p>Continually cultivate scalble methodologies avia theme backend a extend optial mrvice highly growth strategies.</p>
+          </div> 
+          <div class="button_two">
+            <a href="#" class="btn btn-more">Learn More</a>
+            <a href="#" class="btn btn-now">Book Now</a>   
           </div>
       </div>
+      <div class="col-md-6">
+        <div class="banner_img doc">
+          <img src="images/doc1.png" class="img-fluid" alt="">
+      </div>
+      </div>   
+   </div>
+   <div class="row heaight">
+    <div class="col-md-6">
+        <div class="banner_item">
+          <h4>We Provide Total</h4>
+          <h2>Dental Care Solution</h2>
+          <p>Continually cultivate scalble methodologies avia theme backend a extend optial mrvice highly growth strategies.</p>
+        </div> 
+        <div class="button_two">
+          <a href="#" class="btn btn-more">Learn More</a>
+          <a href="#" class="btn btn-now">Book Now</a>   
+        </div>
+    </div>
+    <div class="col-md-6">
+      <div class="banner_img doc">
+        <img src="images/doc2.png" class="img-fluid" alt="">
+    </div>
+    </div>   
+ </div>
+ <div class="row heaight">
+  <div class="col-md-6">
+      <div class="banner_item">
+        <h4>We Provide Total</h4>
+        <h2>Dental Care Solution</h2>
+        <p>Continually cultivate scalble methodologies avia theme backend a extend optial mrvice highly growth strategies.</p>
+      </div> 
+      <div class="button_two">
+        <a href="#" class="btn btn-more">Learn More</a>
+        <a href="#" class="btn btn-now">Book Now</a>   
+      </div>
+  </div>
+  <div class="col-md-6">
+    <div class="banner_img doc">
+      <img src="images/doc3.png" class="img-fluid" alt="">
+  </div>
+  </div>   
+</div>
+      </div> 
+    </div> 
   </section>
   <section class="dental">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-md-5">
           <div class="dental_img">
@@ -455,22 +512,30 @@
           <h4>Our Pricing Plan</h4>
           <img src="images/dentalicon.png" class="img-fluid" alt="">
           <p>Corem ipsum dolor what a amet, consectetuer adipiscing elit diam an nonummy laoreet dolore magna aliquam erat volutpat.</p>
-        </div>
-        <div class="owl-carousel">
-          <div class="col-md-3"></div>
-          <div class="col-md-8">
-            <div class="slide_item">
-              <img src="images/slide1.png" class="img-fluid" alt="">
-              <img src="images/slide2.png" class="img-fluid" alt="">
-              <img src="images/slide3.png" class="img-fluid" alt="">
-              <img src="images/slide4.png" class="img-fluid" alt="">
-              <img src="images/slide5.png" class="img-fluid" alt="">
-            </div>
+        </div>         
+       </div> 
+        <div class="footer_carousel owl-carousel">
+          <div>
+            <img src="images/slide1.png" class="img-fluid" alt="">
           </div>
-          <div class="col-md-1"></div>
-        </div>
+          <div>
+            <img src="images/slide2.png" class="img-fluid" alt="">
+          </div>
+          <div>
+            <img src="images/slide3.png" class="img-fluid" alt="">
+          </div>
+          <div>
+            <img src="images/slide4.png" class="img-fluid" alt="">
+          </div>
+          <div>
+            <img src="images/slide5.png" class="img-fluid" alt="">
+          </div>
+          <div>
+            <img src="images/slide3.png" class="img-fluid" alt="">
+          </div> 
+              
+        </div>   
       </div>
-    </div>
   </section>
   <footer>
     <div class="container">
@@ -583,12 +648,25 @@
     <script src="js/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
+        $(".banner_carousel").owlCarousel({
           loop:true,
+          items:1,
+          nav:true,
+          smartSpeed:1000,
 
          
 
  
+        });
+        });
+
+        $(document).ready(function(){
+        $(".footer_carousel").owlCarousel({
+          loop:true,
+          items:5,
+          nav:true,
+          smartSpeed:600,
+
         });
         });
     </script>
