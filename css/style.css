@@ -144,6 +144,9 @@ h1, h2, h3, h4, h5, h6 li p{
     text-transform: uppercase;
 
 }
+.appointment_content a{
+    text-decoration: none;
+}
 
 
 
@@ -349,13 +352,13 @@ h1, h2, h3, h4, h5, h6 li p{
     background-color: #ffffff;
     text-align: center;
     margin-bottom: 32px;
-    transition: all .2s ease-in-out;
+    transition: all .5s ease-in-out;
     
 
 }
 .doctor_item{
     position: relative;
-    transition: all .2s ease-in-out;
+    transition: all .5s ease-in-out;
 
 }
 .doctor_img:hover .doctor_item::after{
@@ -364,6 +367,9 @@ h1, h2, h3, h4, h5, h6 li p{
 .doctor_img:hover .social_icon i{
     opacity: 1;
 }
+
+
+
 .doctor_item::after{
     position: absolute;
     content: "";
@@ -373,11 +379,13 @@ h1, h2, h3, h4, h5, h6 li p{
     left: 0;
     top: 0;
     z-index: 0;
-    visibility: hidden;
-    transition: all .2s ease-in-out;
+    opacity: 0;
+    transition: all .5s ease-in-out;
 }
 .doctor_item:hover::after{
-    visibility: visible;
+   opacity: 1;
+   
+   
 
 }
 .doctor_item img{
@@ -393,7 +401,6 @@ h1, h2, h3, h4, h5, h6 li p{
     cursor: pointer;
     z-index: 1;
 }
-
 .social_icon i{
     width: 32px;
     height: 32px;
@@ -404,12 +411,13 @@ h1, h2, h3, h4, h5, h6 li p{
     align-items: center;
     border: 2px solid #ffffff;
     color: #ffffff;
-    transition: all .2s ease-in-out;
+    transition: all .4s ease-in-out;
     opacity: 0;
     font-size: 15px;
 }
 .social_icon i:hover{
-    background-color: #f69165; 
+    background-color: #f69165;
+    border: 2px solid #f69165; 
 }
 .doctor_item:hover .social_icon i{
     opacity: 1;
@@ -420,7 +428,7 @@ h1, h2, h3, h4, h5, h6 li p{
     font-weight: 500;
     font-size: 22px;
     color: #363636;
-    transition: all .2s ease-in-out;
+    transition: all .5s ease-in-out;
     margin-top: 18px;
 
 }
@@ -440,7 +448,7 @@ h1, h2, h3, h4, h5, h6 li p{
     width: 100%;
     height: 4px;
     background-color: #00cce1;
-    transition: all .2s ease-in-out;
+    transition: all .5s ease-in-out;
 
 }
 .doctor_img span:hover{
@@ -948,7 +956,7 @@ footer{
     width: 30% !important;
 }
 .footer_carousel .owl-stage-outer {
-    width: 70%;
+    width: 86%;
     margin: auto;
     display: flex;
     align-items: center;
